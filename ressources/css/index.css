@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "Lobster Two", cursive;
 }
 
@@ -90,38 +90,22 @@ nav li:hover {
 }
 
 .projets hr {
-    color: #5C7AB8;
-    background: #5C7AB8;
+    color: #539E4F;
+    background: #539E4F;
     height: 5px;
+    border: none;
 }
 
 .projets-list {
     display: grid;
+    background-color: #539E4F;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 18.75rem 18.75rem;
     grid-template-areas: 
      "img1 desc2 img3 desc4"
-     "desc1 img2 desc3 img4"
+     "desc1 img2 desc3 img4";
 }
 
-.img-projet {
-    display: flex;
-    background-color: aqua;
-}
-.img-projet img{
-    width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-   
-}
-
-.desc-projet {
-    background-color: blue;
-}
-
-.desc-projet p {
-    color: white;
-}
 
 #projet1-image {
     grid-area: img1;
@@ -156,5 +140,45 @@ nav li:hover {
 
 #projet4-description {
     grid-area: desc4;
+}
+
+
+.img-projet {
+    display: flex;
+}
+
+.img-projet img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+   
+}
+
+.desc-projet {
+    display: flex;
+    visibility: hidden;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+}
+
+.desc-projet h3 {
+    font-size: 2rem;
+}
+
+
+.desc-projet p {
+    padding: 0.7rem;
+    text-align: justify;
+}
+
+.desc-projet .icon-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.desc-projet .icon {
+    width: 15%;
+    height: auto;
 }
 
