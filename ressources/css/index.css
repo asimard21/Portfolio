@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: "Lobster Two", cursive;
+}
+
+p {
+    font-family: "Exo 2", sans-serif;
+}
+
+/* header */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    height: 5em;
+    background-color: #5C7AB8;
+}
+
+nav h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3em;
+}
+
+nav li {
+    font-family: "Exo 2", sans-serif;
+    list-style: none;
+    display: inline;
+    margin: 0.5em;
+    padding: 0.2em;
+    font-size: 2em;
+    color: white;
+    border: 2px solid white;
+    
+}
+
+nav li:hover {
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+/* presentation */
+.presentation {
+    display: grid;
+    width: 100%;
+    height: 30em;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 30em;
+    
+}
+
+.presentation img {
+    align-self: center;
+    border-radius: 15px;
+    margin-left: 2em;
+}
+
+
+.about-me {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.about-me h2 {
+    font-size: 3rem;
+    padding: 2rem;
+    color: 
+}
+.about-me p {
+    font-size: 2rem;
+    padding: 2rem;
+    color: 
+}
+
