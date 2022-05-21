@@ -98,7 +98,7 @@ nav li:hover {
 
 .projets-list {
     display: grid;
-    background-color: #539E4F;
+    background: linear-gradient(#539E4F, #1a9214);
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 18.75rem 18.75rem;
     grid-template-areas: 
