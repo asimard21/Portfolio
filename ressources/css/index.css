@@ -28,6 +28,9 @@ nav h1 {
     font-size: 3em;
 }
 
+nav ul {
+    flex-shrink: 1;
+}
 nav li {
     font-family: "Exo 2", sans-serif;
     list-style: none;
@@ -41,6 +44,11 @@ nav li {
     
 }
 
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
 nav li:hover {
     border: 2px solid transparent;
     cursor: pointer;
@@ -49,6 +57,16 @@ nav li:hover {
 .menu {
     display: flex;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    nav li {
+        display: none;
+    }
+
+    nav h1 {
+        margin: auto auto;
+    }
 }
 
 /* presentation */
@@ -81,8 +99,33 @@ nav li:hover {
 .about-me p {
     font-size: 2rem;
     padding: 2rem;
-    color: 
 }
+
+@media only screen and (max-width: 1000px) {
+    .presentation {
+        display: flex;
+    }
+    .presentation img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me h2 {
+        display: none;
+    }
+
+    .about-me p {
+        font-size: 1.5rem;
+        margin: auto auto;
+        text-align: justify;
+    }
+
+    .presentation {
+        height: 15rem;
+    }
+}
+
 
 /* projets */
 .projets h1 {
@@ -170,6 +213,7 @@ nav li:hover {
 
 .desc-projet h3 {
     font-size: 2rem;
+    text-align: center;
 }
 
 
