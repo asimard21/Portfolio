@@ -11,34 +11,43 @@ const img4 = document.getElementById('projet4-image');
 
 
 img1.onclick = () => {
-    if (desc1.style.visibility === 'visible') {
-        desc1.style.visibility = 'hidden';
-    } else {
-        desc1.style.visibility = 'visible';
+    if (window.innerWidth > 600) {
+        if (desc1.style.visibility === 'visible') {
+            desc1.style.visibility = 'hidden';
+        } else {
+            desc1.style.visibility = 'visible';
+        }
     }
 }
 
 img2.onclick = () => {
-    if (desc2.style.visibility === 'visible') {
-        desc2.style.visibility = 'hidden';
-    } else {
-        desc2.style.visibility = 'visible';
+    if (window.innerWidth > 600) {
+        if (desc2.style.visibility === 'visible') {
+            desc2.style.visibility = 'hidden';
+        } else {
+            desc2.style.visibility = 'visible';
+        }
     }
 }
 
 img3.onclick = () => {
-    if (desc3.style.visibility === 'visible') {
-        desc3.style.visibility = 'hidden';
-    } else {
-        desc3.style.visibility = 'visible';
+    if (window.innerWidth > 600) {
+        if (desc3.style.visibility === 'visible') {
+            desc3.style.visibility = 'hidden';
+        } else {
+            desc3.style.visibility = 'visible';
+        }
     }
 }
 
 img4.onclick = () => {
-    if (desc4.style.visibility === 'visible') {
-        desc4.style.visibility = 'hidden';
-    } else {
-        desc4.style.visibility = 'visible';
+    if (window.innerWidth > 600) {
+        if (desc4.style.visibility === 'visible') {
+            desc4.style.visibility = 'hidden';
+        } else {
+            desc4.style.visibility = 'visible';
+        }
     }
+   
 }
 

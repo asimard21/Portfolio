@@ -268,7 +268,8 @@ footer {
     background-color: #1a9214;
     font-size: 1.5rem;
     justify-content: space-between;
-    color: white
+    color: white;
+    border: solid 5px #0e460b;
 }
 
 footer address {
