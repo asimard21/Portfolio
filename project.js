@@ -11,7 +11,7 @@ const img4 = document.getElementById('projet4-image');
 
 
 img1.onclick = () => {
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 1000) {
         if (desc1.style.visibility === 'visible') {
             desc1.style.visibility = 'hidden';
         } else {
@@ -21,7 +21,7 @@ img1.onclick = () => {
 }
 
 img2.onclick = () => {
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 1000) {
         if (desc2.style.visibility === 'visible') {
             desc2.style.visibility = 'hidden';
         } else {
@@ -31,7 +31,7 @@ img2.onclick = () => {
 }
 
 img3.onclick = () => {
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 1000) {
         if (desc3.style.visibility === 'visible') {
             desc3.style.visibility = 'hidden';
         } else {
@@ -41,7 +41,7 @@ img3.onclick = () => {
 }
 
 img4.onclick = () => {
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 1000) {
         if (desc4.style.visibility === 'visible') {
             desc4.style.visibility = 'hidden';
         } else {
