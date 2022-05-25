@@ -239,6 +239,29 @@ nav li:hover {
     height: auto;
 }
 
+@media only screen and (max-width: 600px) {
+
+    .projets-list {
+
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, 18.75rem);   
+    grid-template-areas: 
+     "img1"
+     "desc1"
+     "img2"
+     "desc2"
+     "img3"
+     "desc3"
+     "img4"
+     "desc4";
+    }
+
+    .desc-projet {
+        visibility: visible;
+    }
+    
+}
+
 /* footer and contact */
 footer {
     display: flex;
