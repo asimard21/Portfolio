@@ -11,6 +11,10 @@ p {
     font-family: "Exo 2", sans-serif;
 }
 
+.thumbnail:hover {
+    transform: scale(1.5);
+}
+
 /* header */
 
 nav {
@@ -290,23 +294,31 @@ nav li:hover {
 
 /* footer and contact */
 footer {
+
+    min-height: 8rem;
     display: flex;
     background-color: #1a9214;
-    font-size: 1.5rem;
-    justify-content: space-between;
-    color: white;
-    border: solid 5px #0e460b;
-}
-
-footer address {
-    padding: 0.5rem 2rem;
+    align-items: center;
+    border-top: solid 5px #0d3a0b;
+    justify-content: center;
 }
 
 footer a {
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    margin: 0 1.5rem;
+    background-color: white;
+    border: solid 2px white;
+    border-radius: 5px 10px;
+    transition: transform 0.5s;
 }
 
-footer h4 {
-    padding: 0.5rem 2rem;
+.thumbnail:hover {
+    transform: scale(1.5);
 }
+
+
+
 
