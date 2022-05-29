@@ -203,9 +203,7 @@ nav li:hover {
     display: flex;
 }
 
-.img-projet:hover {
-    cursor: pointer;
-}
+
 
 .img-projet img{
     width: 100%;
@@ -216,11 +214,22 @@ nav li:hover {
 
 .desc-projet {
     display: flex;
-    visibility: hidden;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
     color: white;
+}
+
+.desc-projet:hover {
+    cursor: pointer;
+}
+
+.desc-projet .clickMe {
+    display: block;
+}
+
+.desc-projet .full-desc {
+    display: none;
 }
 
 .desc-projet h3 {
