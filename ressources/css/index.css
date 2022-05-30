@@ -138,6 +138,12 @@ nav li:hover {
     }
 }
 
+@media only screen and (max-width: 400px)
+{
+    .presentation {
+        height: 25rem;
+    }
+}
 
 /* projets */
 .projets h1 {
